@@ -9,8 +9,6 @@ The project combines sensor data collection, machine learning analysis, targeted
 
 # Setting up IPython Notebook with Dataset
 
-This guide will walk you through setting up an IPython Notebook environment to work with the dataset named `new-plat-data.csv`.
-
 ## Requirements
 - Python installed on your system
 - Jupyter Notebook installed (you can install it using pip: `pip install notebook`)
@@ -19,11 +17,11 @@ This guide will walk you through setting up an IPython Notebook environment to w
 
 1. **Clone the repository**:
    Clone the repository containing the IPython Notebook file and the dataset.
-   git clone <repository-url>
+   git clone https://github.com/prashant-jadon/intelli-farm-model.git
 
 2. **Navigate to the directory**:
    Navigate to the directory where you cloned the repository.
-   cd <repository-name>
+   cd intelli-farm-model
 
 3. **Launch Jupyter Notebook**:
   Launch Jupyter Notebook from the terminal.
@@ -31,28 +29,22 @@ This guide will walk you through setting up an IPython Notebook environment to w
 
 
 4. **Open the IPython Notebook**:
-In the Jupyter Notebook interface that opens in your web browser, navigate to the directory where the notebook file (`example.ipynb`) is located and click on it to open.
+In the Jupyter Notebook interface that opens in your web browser, navigate to the directory where the notebook file (`google_sol_v2.ipynb`) is located and click on it to open.
 
 5. **Run the Notebook**:
 Run the cells in the notebook to interact with the dataset and execute the code.
 
 6. **Access the Dataset**:
-Access the dataset `new-plat-data.csv` within the notebook using Python libraries like Pandas.
+Access the dataset `new_plant_data.csv` within the notebook using Python libraries like Pandas.
 
 ```python
 import pandas as pd
 
 # Load the dataset
-df = pd.read_csv('new-plat-data.csv')
+df = pd.read_csv('new_plant_data.csv')
 
 # Explore the dataset
 print(df.head())
  ```
 
-
-Additional Notes
-Make sure you have Python and Jupyter Notebook installed before following these steps.
-Ensure that the dataset file new-plat-data.csv is located in the same directory as the IPython Notebook file or provide the correct path when loading the dataset.
-Customize the notebook file (example.ipynb) as per your requirements.
-Feel free to modify the dataset and notebook to suit your analysis or project needs.
 
